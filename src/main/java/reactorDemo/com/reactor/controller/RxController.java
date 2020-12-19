@@ -19,7 +19,7 @@ import java.util.List;
 @RestController
 @RequestMapping("api/rx")
 @RequiredArgsConstructor
-public class RxControllerController {
+public class RxController {
 
     private final UserService userService;
     private final PostService postService;
